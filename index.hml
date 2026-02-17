@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WEB DEVELOPMENT</title>
+</head>
+
+<body>
+
+
+    <h1>WEB DEVELOPMENT</h1>
+    <h2>WEB DEVELOPMENT</h2>
+    <h3>WEB DEVELOPMENT</h3>
+    <h4>WEB DEVELOPMENT</h4>
+    <h5>WEB DEVELOPMENT</h5>
+    <h6>WEB DEVELOPMENT</h6>
+
+    <p>
+       Web developement is a process of creating and maintaing websites and web applications that run on the internet.<br>it involves using technologies like HTML to structre content,CSS to design and style pages ,and Javascript to add interactivity and functionality 
+    </p>
+</body>
+
+</html>
+
