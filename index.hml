@@ -1,27 +1,206 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WEB DEVELOPMENT</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Learning Portal</title>
+
+   
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body >
+    <header>
+        <h1>📕📗📘 HTML Project📘📗📕</h1>
+        <p><strong>📚WEB Development📚</strong><br>
+        HTML✨ CSS✨ JS✨</p>
+        <hr>
+    </header>
+    <nav>
+        <a href="#about"> My Introduction</a>
+    </nav>
+
+    <hr>
+    <main>
+        <section id="about">
+            <h2><u>My Introduction</u>👩‍🎓</h2>
+
+            <p>
+                Hi! I am <strong>Harshada Satokar</strong>, a college student
+                learning the  <strong>HTML</strong>.
+            </p>
+            <p>
+               <i> HTML means <strong>HyperText Markup Language</strong>.
+                It helps in creating the <em>layout and content</em> of a webpage.
+               </i>   </p><hr>
+        <h2><u>Formulas:</u>🧪</h2>
+            <p>
+                Oxygen: O<sub>2</sub><br>
+                Water: H<sub>2</sub>O <br>
+                Cube: 9<sup>3</sup> = 729
+            </p><hr>
+         <p>◼<u>My Profile Photo✨</u></p>
+            <img src="profile.png" alt="Student Photo" width="60">
+           
+
+            <hr>
+        </section>
+
+       
+        <section >
+            <h2>🌐<u>Web Designing:</u></h2>
+
+            <h3>Three Language Of Web Designing</h3>
+            <ul>
+                <li>HTML✨</li>
+                <li>CSS✨</li>
+                <li>JavaScript✨</li>
+            </ul>
+
+            <h3>Used to:</h3>
+            <ol>
+                <li> HTML &rarr;Structure</li>
+                <li>CSS &rarr;Style</li>
+                <li>JavaScript &rarr; Logic</li>
+            </ol>
+            <hr>
+        </section>
+       
+             <h2>⭕<u>Semester Result📃</u></h2>
+
+            
+            <table border="1" cellpadding="8">
+                <caption>Result Analysis</caption>
+
+                <thead>
+                    <tr>
+                        <th>Sr. No.</th>
+                        <th>Name</th>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                    </tr>
+                </thead
+                
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>-----</td>
+                        <td>LDPD</td>
+                        <td>82</td>
+                       
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>-----</td>
+                        <td>IAT</td>
+                        <td>75</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>-----</td>
+                        <td>DE&S</td>
+                        <td>99</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>-----</td>
+                        <td>AMC</td>
+                        <td>90</td>
+                    </tr>
+                </tbody>
+
+                <tfoot>
+                    <tr>
+                        <th colspan="3">Total</th>
+                        <th>227</th>
+                    </tr>
+                    <th colspan="4">Qualified ✔</th>
+                </tfoot>
+            </table>
+
+            <hr>
+        
+        
+            <h2><u>📋 Enrollment Form:</u></h2>
+
+            <form>
+                <h3>Fill your Form:</h3>
+                <label for="FullName">Student Name:</label><br>
+                <input type="text" id="FullName" placeholder="Enter Your Full Name:" name="student_name" required><br><br>
+
+                <label for="emil">Email Address:</label><br>
+                <input type="email" id="email"  placeholder="Enter Your Email:" name="student_email" required><br><br>
+
+                <label for="pass">Create Password:</label><br>
+                <input type="password" id="pass" name="pass" placeholder="Enter Password:" required><br><br>
+
+                <label for="gen">Gender:</label><br>
+                <input type="radio" name="gen" value="male"> Male
+                <input type="radio" name="gen" value="female"> Female<br><br>
+
+                <label for="age">Enter Age:</label><br>
+                <input type="number" id="age" name="age" placeholder="Enter Age:" min="1" max="100"><br><br>
 
 
-    <h1>WEB DEVELOPMENT</h1>
-    <h2>WEB DEVELOPMENT</h2>
-    <h3>WEB DEVELOPMENT</h3>
-    <h4>WEB DEVELOPMENT</h4>
-    <h5>WEB DEVELOPMENT</h5>
-    <h6>WEB DEVELOPMENT</h6>
+                <label>Interested Topics:</label><br>
+                <input type="checkbox" name="topic" value="html"> HTML✨
+                <input type="checkbox" name="topic" value="css"> CSS✨
+                <input type="checkbox" name="topic" value="web"> JS✨<br><br>
 
-    <p>
-       Web developement is a process of creating and maintaing websites and web applications that run on the internet.<br>it involves using technologies like HTML to structre content,CSS to design and style pages ,and Javascript to add interactivity and functionality 
-    </p>
+                <label for="birthdate">Birth Date:</label><br>
+                <input type="date" name="birthdate"><br><br>
+
+                <input type="submit" value="Submit">
+                
+            </form>
+
+            <hr>
+        
+       
+            <h2>🎥Video & Audio:</h2>
+
+            <h3> Video:</h3>
+            <video width="400" controls autoplay muted>
+                <source src="Lord Krishna.mp4" type="video/mp4">
+            </video>
+
+            <h3>Audio</h3>
+            <audio controls autoplay muted>
+                <source src="guide.mp3" type="audio/mpeg">
+            </audio> 
+
+            <h3>YouTube Video:</h3>
+            <iframe width="300" height="200" frameborder="4" 
+                src="https://www.youtube.com/shorts/POZuH8NyHkQ"
+                title="Doremon">
+            </iframe>
+
+            <hr>
+        
+
+        
+       
+            <h3>💡-------</h3>
+            <p>
+                Special symbols: &COPY;&reg; &lt; &gt;<br>
+                Emojis supported: 📘 💻 ⭐
+            </p>
+        
+
+    </main>
+
+   
+    <footer >
+        <hr>
+        <p>
+            Support Email:
+            <a href="mailto:harshadasatokar@gmail.com">harshadasatokar@gmail.com</a>
+        </p>
+        
+    </footer>
+
 </body>
-
 </html>
-
